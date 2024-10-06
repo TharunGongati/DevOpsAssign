@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-06T11:50:19 IST" name="BrowserTests" finished-at="2024-10-06T11:51:17 IST" duration-ms="57775">
+  <suite started-at="2024-10-06T13:15:44 IST" name="BrowserTests" finished-at="2024-10-06T13:19:07 IST" duration-ms="203179">
     <groups>
     </groups>
-    <test started-at="2024-10-06T11:50:19 IST" name="ChromeTest" finished-at="2024-10-06T11:50:42 IST" duration-ms="23524">
+    <test started-at="2024-10-06T13:15:44 IST" name="ChromeTest" finished-at="2024-10-06T13:17:16 IST" duration-ms="92347">
       <class name="DevOpsAssignment.Dev">
-        <test-method signature="Amazon(java.lang.String)[pri:0, instance:DevOpsAssignment.Dev@368f2016]" started-at="2024-10-06T11:50:19 IST" name="Amazon" finished-at="2024-10-06T11:50:42 IST" duration-ms="23428" status="PASS">
+        <test-method signature="Amazon(java.lang.String)[pri:0, instance:DevOpsAssignment.Dev@6aeb35e6]" started-at="2024-10-06T13:15:44 IST" name="Amazon" finished-at="2024-10-06T13:17:16 IST" duration-ms="92256" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -20,24 +20,9 @@
         </test-method> <!-- Amazon -->
       </class> <!-- DevOpsAssignment.Dev -->
     </test> <!-- ChromeTest -->
-    <test started-at="2024-10-06T11:50:19 IST" name="EdgeTest" finished-at="2024-10-06T11:50:53 IST" duration-ms="34082">
+    <test started-at="2024-10-06T13:15:44 IST" name="FirefoxTest" finished-at="2024-10-06T13:17:32 IST" duration-ms="107559">
       <class name="DevOpsAssignment.Dev">
-        <test-method signature="Amazon(java.lang.String)[pri:0, instance:DevOpsAssignment.Dev@74e52ef6]" started-at="2024-10-06T11:50:19 IST" name="Amazon" finished-at="2024-10-06T11:50:53 IST" duration-ms="34013" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[edge]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Amazon -->
-      </class> <!-- DevOpsAssignment.Dev -->
-    </test> <!-- EdgeTest -->
-    <test started-at="2024-10-06T11:50:19 IST" name="FirefoxTest" finished-at="2024-10-06T11:51:17 IST" duration-ms="57775">
-      <class name="DevOpsAssignment.Dev">
-        <test-method signature="Amazon(java.lang.String)[pri:0, instance:DevOpsAssignment.Dev@4116aac9]" started-at="2024-10-06T11:50:19 IST" name="Amazon" finished-at="2024-10-06T11:51:17 IST" duration-ms="57702" status="PASS">
+        <test-method signature="Amazon(java.lang.String)[pri:0, instance:DevOpsAssignment.Dev@7e6f74c]" started-at="2024-10-06T13:15:44 IST" name="Amazon" finished-at="2024-10-06T13:17:32 IST" duration-ms="107497" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -50,5 +35,20 @@
         </test-method> <!-- Amazon -->
       </class> <!-- DevOpsAssignment.Dev -->
     </test> <!-- FirefoxTest -->
+    <test started-at="2024-10-06T13:15:44 IST" name="EdgeTest" finished-at="2024-10-06T13:19:07 IST" duration-ms="203161">
+      <class name="DevOpsAssignment.Dev">
+        <test-method signature="Amazon(java.lang.String)[pri:0, instance:DevOpsAssignment.Dev@6a78afa0]" started-at="2024-10-06T13:15:44 IST" name="Amazon" finished-at="2024-10-06T13:19:07 IST" duration-ms="203093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Amazon -->
+      </class> <!-- DevOpsAssignment.Dev -->
+    </test> <!-- EdgeTest -->
   </suite> <!-- BrowserTests -->
 </testng-results>
