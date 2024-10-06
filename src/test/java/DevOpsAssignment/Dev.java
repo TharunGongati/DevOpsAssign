@@ -28,6 +28,7 @@ public class Dev {
 			ChromeOptions options = new ChromeOptions();
 			driver = new RemoteWebDriver(url, options);
 			System.out.println("Connected to Chrome");
+			Thread.sleep(10000); 
 		  
 		} else if (bname.equalsIgnoreCase("firefox")) {
 			FirefoxOptions options = new FirefoxOptions();
